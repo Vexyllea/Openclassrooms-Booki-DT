@@ -212,6 +212,15 @@ a {
 }
 .activitesrecherche{
     display: flex;
+    align-items: flex-start;
+}
+
+.activitesrecherche img{
+    width: 300px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -276,8 +285,11 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
+/*footers*/
+.lienfooters h2{
+    display: flex;
+    justify-content:space-around;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
