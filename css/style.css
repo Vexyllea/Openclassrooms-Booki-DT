@@ -45,6 +45,7 @@ body {
 .liena {
     display: flex;
     padding-left: 100px;
+    padding-top: 14px;
 }
 
 .iconlieu{
@@ -286,9 +287,16 @@ a {
     margin-bottom: 5px;
 }
 /*footers*/
+.lienfooters {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
 .lienfooters h2{
     display: flex;
-    justify-content:space-around;
+}
+.lienfooters a{
+    display: flex;
 }
 
 
