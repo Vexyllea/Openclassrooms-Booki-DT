@@ -246,15 +246,15 @@ a {
 .activitesrecherche {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .activitesrecherche a {
     display: flex;
     justify-content: center;
-    box-shadow: 8px 8px 24px -5px #000000;
+    box-shadow: 19px 16px 50px -8px rgba(0,0,0,0.43);
     border-radius: 25px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     
 }
@@ -281,6 +281,7 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    margin-left: 20px;
 }
 
 /****** Hebergements ***********/
@@ -331,20 +332,36 @@ a {
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 /*footers*/
+
+
 .titrefooter{
     display: flex;
     justify-content: space-between;
+    background-color: #09090e27;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .lienfooters{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 3px;
+    background-color: #09090e27;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
+.footerbottom{
+    display: flex;
+    background-color: #09090e27;
+    height: 60px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
